@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Palkanmenetys</title>
+</head>
+
+<body>
+	<h3>Palkanmenetys</h3>
+
+	<form>
+		<label>Kuukausipalkka</label>
+		<input type="text" id="palkka" size="6">
+		<input type="button" value="Laske palkanmenetys" onclick="laske()">
+	</form>
+
+	<!-- Tänne kirjoitetaan vastaus JavaScriptillä -->
+	<div id="vastaus"></div>
+
+	<script>
+		// Funktio, jota painike kutsuu
+		function laske() {
+
+			// Lomakekentän arvon lukeminen
+			let palkka = Number(document.getElementById("palkka").value); // Lomakekentän arvo on aina merkkijono
+
+			// Käsittely
+			let menetys = palkka / 30;
+
+			// Vastauksen kirjoittaminen html-sivulle
+			document.getElementById("vastaus").innerHTML = "Palkka on " + palkka.toFixed(2)
+				+ " ja palkanmenetys on " + menetys.toFixed(2);
+		}
+	</script>
+
+</body>
+
+</html>
