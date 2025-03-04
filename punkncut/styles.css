@@ -29,6 +29,7 @@ body{
     color: #ff4fd1;
     margin-left: 5%;
     flex: 6;
+    min-width: 200px;
 }
 
 .etusivucontainer{
