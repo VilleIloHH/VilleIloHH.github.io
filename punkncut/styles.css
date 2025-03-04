@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(255, 255, 255);
     margin-top: 5px;
 }
 
@@ -14,7 +14,7 @@ body{
     height: 50px;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(222, 216, 216);
+    background-color: rgb(57, 55, 55);
 
 }
 
