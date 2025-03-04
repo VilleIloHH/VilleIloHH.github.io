@@ -120,3 +120,29 @@ body{
 .footer .social-links a:hover {
     color: #f04e30;
 }
+
+/* Yhteystiedot välilehden CSS */
+
+.yhteystiedotmaincontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.meistateksticontainer{
+    background-color: lightblue;
+    width: 100%;
+
+
+}
+
+.ajanvarauscontainer{
+    background-color: lightgreen;
+    flex: 1;
+}
+
+.tyontekijakuvacontainer{
+    background-color: tomato;
+    flex: 2;
+
+}
