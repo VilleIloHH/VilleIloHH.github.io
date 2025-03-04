@@ -21,6 +21,7 @@ body{
 
 .logocontainer{
     margin-left: 2%;
+    min-width: 50px;
 }
 
 .otsikkocontainer{
@@ -29,7 +30,7 @@ body{
     color: #ff4fd1;
     margin-left: 5%;
     flex: 6;
-    min-width: 200px;
+    min-width: 250px;
 }
 
 .etusivucontainer{
