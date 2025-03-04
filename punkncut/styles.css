@@ -92,7 +92,7 @@ body{
     padding: 40px 0;
     text-align: center;
     display: flex;
-    display: inline-block;
+    flex-wrap: wrap;
 }
 .footer h4 {
     color: #fff;
