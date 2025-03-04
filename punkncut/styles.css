@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(255, 255, 255);
     margin-top: 5px;
 }
 
@@ -14,7 +14,7 @@ body{
     height: 50px;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(222, 216, 216);
+    background-color: rgb(57, 55, 55);
 
 }
 
@@ -85,10 +85,14 @@ body{
     font-size: 50px;
 }
 
+/*** footer ***/
+
 .footer {
     background-color: #222;
     padding: 40px 0;
     text-align: center;
+    display: flex;
+    display: inline-block;
 }
 .footer h4 {
     color: #fff;
@@ -107,7 +111,7 @@ body{
     border: none;
 }
 .footer input[type="submit"] {
-    background-color: #f04e30;
+    background-color: #f030e0;
     color: white;
     cursor: pointer;
 }
@@ -118,7 +122,30 @@ body{
     transition: 0.3s;
 }
 .footer .social-links a:hover {
-    color: #f04e30;
+    color: #f030ca;
+}
+
+
+/*** Service ***/
+.service-item {
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -10px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .5s;
 }
 
 /* Yhteystiedot välilehden CSS */
