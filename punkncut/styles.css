@@ -1,9 +1,22 @@
 /* Sivuston taustaväri sekä ylämarginaali*/
 
-
 body{
     background-color: rgb(255, 255, 255);
-    margin-top: 5px;
+    margin-top: 0px;
+    padding-top: 50px;
+    
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff4fd1;
+    width: 100%;
+    font-size: 40px;
+    min-width: 250px;
+    height: 40px;
+    display: block;
+
+   
 }
 
 /* Tästä alkaa yläpalkin CSS */
@@ -15,6 +28,12 @@ body{
     flex-direction: row;
     align-items: center;
     background-color: rgb(57, 55, 55);
+    position: fixed;
+    clear: both;
+    top: 0px;
+ 
+    
+   
 
 }
 
@@ -25,12 +44,12 @@ body{
 }
 
 .otsikkocontainer{
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ff4fd1;
     margin-left: 5%;
     flex: 6;
     min-width: 250px;
+    height: 50px;
+    
+    
 }
 
 .etusivucontainer{
@@ -74,17 +93,20 @@ body{
     
 .palvelutlinkki:active, .etusivulinkki:active, .yhteystiedotlinkki:active{
 
-    color: #ca2ba0;
+    color: #ff4fd1;
 }
     
 
 .otsikkoteksti{
-    font-family: Impact, Haettenschweiler,
-     'Arial Narrow Bold', sans-serif;
-
-    height: 100%; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff4fd1;
+    height: 50px; 
     width: 100%;
     font-size: 50px;
+    min-width: 250px;
+    margin: 0px;
+    
+    
 }
 
 /*** footer ***/
@@ -152,26 +174,34 @@ body{
 
 /* Yhteystiedot välilehden CSS */
 
-.yhteystiedotmaincontainer{
+.TESTI{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+
+  
+}
+
+.yhteystiedotbox{
+    width: 45%;
+    border: solid black;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 75px;
+    
+    
+    
 
 }
 
-.meistateksticontainer{
-    background-color: lightblue;
+.yhteystiedotbox2{
     width: 100%;
-
-
+    border: solid black;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 5px;
+   
 }
 
-.ajanvarauscontainer{
-    background-color: lightgreen;
-    flex: 1;
-}
-
-.tyontekijakuvacontainer{
-    background-color: tomato;
-    flex: 2;
-
-}
