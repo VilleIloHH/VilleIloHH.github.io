@@ -91,6 +91,7 @@ body{
     background-color: #222;
     padding: 40px 0;
     text-align: center;
+    display: flex;
 }
 .footer h4 {
     color: #fff;
@@ -109,7 +110,7 @@ body{
     border: none;
 }
 .footer input[type="submit"] {
-    background-color: #f04e30;
+    background-color: #f030e0;
     color: white;
     cursor: pointer;
 }
@@ -120,7 +121,7 @@ body{
     transition: 0.3s;
 }
 .footer .social-links a:hover {
-    color: #f04e30;
+    color: #f030ca;
 }
 
 
