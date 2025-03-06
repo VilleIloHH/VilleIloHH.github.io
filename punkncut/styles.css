@@ -278,8 +278,8 @@ p{
 
 
 .indexteksti2{
-    width: 49%;
-    
+    width: 30%;
+    padding-left: 15%;
 
 }
 
@@ -312,3 +312,11 @@ p{
 }
 
 
+.etusivulista{
+        font-family: Rockwell, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        align-items: center;
+
+    }
+
+   
