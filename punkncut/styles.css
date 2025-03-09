@@ -120,7 +120,6 @@ footer {
 }
 .footer-container {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 .footer-container div {
