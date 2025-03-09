@@ -181,7 +181,7 @@ footer {
 
 .service-item h4 {
     font-size: 22px;
-    color: #ff4fd1;
+    color: #fc9ce2; /* tätä muutin välilehden CSS */
 }
 
 .service-item p {
