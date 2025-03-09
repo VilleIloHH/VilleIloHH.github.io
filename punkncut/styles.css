@@ -111,48 +111,21 @@ p{
 
 /*** footer ***/
 
-.footer {
+footer {
     background-color: #222;
-    padding: 40px 0;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-}
-
-.footer h4 {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.footer p, .footer label {
-    color: #ccc;
-    font-size: 14px;
-}
-
-.footer input, .footer select, .footer textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-}
-
-.footer .social-links a {
     color: white;
-    font-size: 20px;
-    margin: 0 10px;
-    transition: 0.3s;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
 }
-
-.footer .social-links a:hover {
-    color: #f030ca;
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
+.footer-container div {
+    margin: 10px;
+}
 
 /* Palvelut-osio */
 .container-fluid {
