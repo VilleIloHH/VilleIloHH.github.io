@@ -146,12 +146,12 @@ footer {
 .palvelut-container {
     display: flex;
     flex-wrap: wrap; /* Rivittää kuvat tarvittaessa uudelle riville */
-    gap: 10px; /* Lisää tilaa kuvien väliin */
+    gap: 15px; /* Lisää tilaa kuvien väliin */
     justify-content: center; /* Tasaa kuvat keskelle */
 }
 
 .palvelut-container img {
-    max-width: 30%; /* Skaalaa kuvat 30%:iin vanhemman elementin leveydestä */
+    max-width: 200px; /* Skaalaa kuvat 30%:iin vanhemman elementin leveydestä */
     height: auto; /* Säilyttää kuvan mittasuhteet */
     border-radius: 10px; /* Pyöristää kulmia hieman */
 }
