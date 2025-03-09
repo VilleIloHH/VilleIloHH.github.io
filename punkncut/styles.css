@@ -19,9 +19,6 @@ h1{
     margin-bottom: 20px;
 }
 
-
-
-
 p{
     font-family: Rockwell, Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -31,6 +28,7 @@ p{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 50px;
     flex-direction: row;
@@ -39,10 +37,7 @@ p{
     position: fixed;
     clear: both;
     top: 0px;
-    
-
 }
-
 
 .logocontainer{
     margin-left: 2%;
@@ -54,7 +49,6 @@ p{
     flex: 6;
     min-width: 250px;
     vertical-align: middle;
- 
 }
 
 .etusivucontainer{
@@ -123,17 +117,21 @@ p{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-   
+    justify-content: center;
+    gap: 20px;
 }
+
 .footer h4 {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 .footer p, .footer label {
     color: #ccc;
     font-size: 14px;
 }
+
 .footer input, .footer select, .footer textarea {
     width: 100%;
     padding: 8px;
@@ -141,17 +139,14 @@ p{
     border-radius: 5px;
     border: none;
 }
-.footer input[type="submit"] {
-    background-color: #f030e0;
-    color: white;
-    cursor: pointer;
-}
+
 .footer .social-links a {
     color: white;
     font-size: 20px;
     margin: 0 10px;
     transition: 0.3s;
 }
+
 .footer .social-links a:hover {
     color: #f030ca;
 }
@@ -251,7 +246,7 @@ p{
     text-align: center;
     vertical-align: middle;
     padding-top: 80px;
-
+    align-items: center;
 }
 
 .ctateksti{
@@ -269,27 +264,17 @@ p{
     font-size: 26px;
 }
 
-
 .indexteksti1{
     width: 49%;
-  
-
 }
-
 
 .indexteksti2{
     width: 30%;
     padding-left: 15%;
-
 }
-
-
 
 .indexkuvacontainer2{
     width: 49%;
-   
-   
-    
 }
 
 
@@ -297,7 +282,6 @@ p{
 .indexteksti3{
     width: 100%;
     border: solid black 2px;
-
 }
 
 .indexmainoskuva{
@@ -330,6 +314,9 @@ p{
     .container div {
         padding: 10px 0;
     }
+    .indexteksti1, .indexteksti2, .indexkuvacontainer2 {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -338,5 +325,12 @@ p{
     }
     .palvelutlinkki, .etusivulinkki, .yhteystiedotlinkki {
         font-size: 16px;
+    }
+    .yhteystiedotbox {
+        width: 100%;
+        min-width: unset;
+    }
+    .ctacontainer {
+        width: 100%;
     }
 }
