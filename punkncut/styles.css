@@ -27,6 +27,7 @@ p{
 /* Tästä alkaa yläpalkin CSS*/
 
 .container{
+    position: relative;  /* Ei kiinnity vierittäessä */
     display: flex;
     flex-wrap: wrap;
     width: 100%;
