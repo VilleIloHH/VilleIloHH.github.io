@@ -122,15 +122,20 @@ footer {
     background-color: #222;
     color: white;
     text-align: center;
+    width: 100%;
     padding: 20px;
-    margin-top: auto;
 }
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .footer-container div {
     margin: 10px;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
 }
 
 /* ============================== */
@@ -358,7 +363,4 @@ footer {
     }
 }
 
-.bottom-bar {
-    display: flex;
-    justify-content: center;
-}
+
