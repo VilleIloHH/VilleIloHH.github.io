@@ -131,6 +131,10 @@ footer {
     justify-content: space-around;
 }
 
+.footersivut a {
+    color: #ff4fd1; 
+}
+
 .footer-container div {
     margin: 10px;
 }
