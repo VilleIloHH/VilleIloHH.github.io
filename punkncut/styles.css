@@ -156,10 +156,6 @@ footer {
     justify-content: space-between;
 }
 
-.col-lg-6 {
-    width: 48%;
-}
-
 .palvelut-container {
     display: flex;
     flex-wrap: wrap; /* Rivittää kuvat tarvittaessa uudelle riville */
@@ -167,10 +163,18 @@ footer {
     justify-content: center; /* Tasaa kuvat keskelle */
 }
 
-.palvelut-container img {
-    max-width: 200px; /* Skaalaa kuvat 30%:iin vanhemman elementin leveydestä */
-    height: auto; /* Säilyttää kuvan mittasuhteet */
-    border-radius: 10px; /* Pyöristää kulmia hieman */
+.palvelu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px; /* Adjust the width as needed */
+    margin: 10px;
+}
+
+.palvelu-kuva {
+    max-width: 100%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Rounds the corners slightly */
 }
 
 .service-item {
