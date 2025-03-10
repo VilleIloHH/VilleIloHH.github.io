@@ -364,3 +364,9 @@ footer {
         width: 100%;
     }
 }
+
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+}
