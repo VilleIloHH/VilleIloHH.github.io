@@ -159,7 +159,7 @@ footer {
 .palvelut-container {
     display: flex;
     flex-wrap: wrap; /* Rivittää kuvat tarvittaessa uudelle riville */
-    gap: 20px; /* Lisää tilaa kuvien väliin */
+    gap: 60px; /* Lisää tilaa kuvien väliin */
     justify-content: center; /* Tasaa kuvat keskelle */
 }
 
