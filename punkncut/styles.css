@@ -125,10 +125,12 @@ footer {
     width: 100%;
     padding: 20px;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-around;
 }
+
 .footer-container div {
     margin: 10px;
 }
